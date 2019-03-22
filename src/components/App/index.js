@@ -3,8 +3,9 @@ import { Route, Switch } from "react-router-dom";
 import "./styles.scss";
 import Home from "src/components/Home";
 import Auth from "src/components/Auth";
+import Navigation from "src/components/Navigation";
 const App = props => [
-  // <Navigation key={1} />,
+  <Navigation key={1} />,
 
   <PrviateRoutes key={2} />
 
